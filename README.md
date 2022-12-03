@@ -1,6 +1,12 @@
 # youtube-download
-Download Youtube videos using Python
+Download Youtube videos using Python <br>
+Using the Pytube library (https://github.com/pytube/pytube) in order to run a short program allowing us to download videos.
+YT Regex is often updating and Pytube's own script for downloading video's is often updated (if error when running, check the newest one for potential changes)
 
-### Info
-In order to download video, you need to enter the link in the terminal when running the program. <br>
-You also need to update the path for the folder you want to store the videos
+### In order to run:
+Copy the link of the video/playlist and paste as 'link' when running:
+
+$ pytube link
+
+### Downloads:
+Videos will appear in the same folder as the program
